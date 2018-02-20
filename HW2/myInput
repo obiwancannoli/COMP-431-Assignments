@@ -1,0 +1,4 @@
+USER potato
+PASS potato
+PorT 152,25,124,131,31,144
+RETR /////still_relative

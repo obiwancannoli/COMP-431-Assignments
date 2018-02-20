@@ -1,0 +1,43 @@
+220 COMP 431 FTP server ready.
+USER jasleen
+331 Guest access OK, send password.
+uSeR jasleen
+331 Guest access OK, send password.
+usr jasleen
+500 Syntax error, command unrecognized.
+USERjasleen
+500 Syntax error, command unrecognized.
+user
+501 Syntax error in parameter.
+USER jasl*n
+331 Guest access OK, send password.
+USER jaslee¥
+501 Syntax error in parameter.
+USER           jasleen
+331 Guest access OK, send password.
+USER ja sl een 
+331 Guest access OK, send password.
+PASS 12@456
+230 Guest Login OK.
+PASS 12*456
+230 Guest Login OK.
+TYPE A
+200 Type set to A
+TYPE I
+200 Type set to I
+TYPE B
+501 Syntax error in parameter.
+SYST
+215 UNIX Type: L8.
+SYST jasleen
+501 Syntax error in parameter.
+NOOP
+200 Command OK.
+NOP
+500 Syntax error, command unrecognized.
+QUIT
+200 Command OK.
+quit
+200 Command OK.
+quit 
+501 Syntax error in parameter.
